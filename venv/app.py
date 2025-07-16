@@ -7,7 +7,9 @@
 
 import streamlit as st
 import pickle
-import docx  # Extract text from Word file
+import docx  # ✅ KEEP THIS
+from docx import Document  # ✅ ADD THIS
+
 import PyPDF2  # Extract text from PDF
 import re
 
